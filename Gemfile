@@ -60,7 +60,12 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-
+  # Prettier errors handeling
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  # Development tools for modifications
+  gem 'guard', '~> 2.18'
+  # Live reload
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2',require:false
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
