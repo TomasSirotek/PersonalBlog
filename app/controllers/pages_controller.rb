@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def posts
+  def index
   end
 end

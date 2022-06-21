@@ -66,6 +66,8 @@ group :development do
   gem 'guard', '~> 2.18'
   # Live reload
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2',require:false
+  # Json serial
+  gem 'fast_jsonapi', '~> 1.5'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
